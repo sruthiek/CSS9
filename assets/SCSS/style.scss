@@ -1,0 +1,35 @@
+//base
+@import './base/base';
+@import './base/color';
+@import './base/spacer';
+@import './base/mixins';
+
+
+
+//atom
+@import './atom/applybtn';
+
+
+//molecule
+@import './molecule/trainingcard';
+@import './molecule/iconheadingmolecule';
+@import './molecule/employeeheadiing';
+@import './molecule/empcard';
+@import './molecule/benefitcard';
+@import './molecule/coursevalucard';
+@import './molecule/heading1';
+@import './molecule/headsing2';
+@import './molecule/dataengineeringmoli';
+@import './molecule/lastdatemoli';
+
+//organism
+@import './organism/headerorg';
+@import './organism/navbar';
+@import './organism/ourvision';
+@import './organism/trainingorg';
+@import './organism/greatplacetowork';
+@import './organism/employeeorg';
+@import './organism/benefitsorg';
+@import './organism/benmaincardorg';
+@import './organism/coursevalueorg';
+@import './organism/intakesorg';

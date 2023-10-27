@@ -1,0 +1,51 @@
+.maincontainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #071D31;
+
+    &__main2 {
+        display: flex;
+    }
+
+    &__row {
+       
+        width: 100%;
+        height: 70vh;
+        background-color: aliceblue;
+        display: flex;
+        &__col1{
+            overflow-y: hidden;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            background-color: chartreuse;
+            &__img{
+                overflow-y: hidden;
+               
+                padding: 20px;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__col2{
+            width: 60%;
+            margin: 10px;
+            height:auto ;
+            background-color: aqua;
+        }
+    }
+}
+
+@include mobile {
+    .maincontainer {
+        height: auto;
+    }
+
+    .maincontainer__main2 {
+        display: block;
+    }
+    .maincontainer__row{
+        height: auto;
+        display: block;
+    }
+}

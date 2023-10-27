@@ -1,0 +1,68 @@
+.card {
+    overflow-y: hidden;
+    width: 15%;
+    height: 40vh;
+    // background-color: aqua;
+    margin: 10px;
+
+    
+
+    &__images {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__h4 {
+        overflow-y: hidden;
+        font-size: 18px;
+        font-weight: 800;
+        padding-top: 10px;
+        color: #10385B;
+    }
+
+    &__p {
+        overflow-y: hidden;
+        font-size: 16px;
+    }
+
+&--new{
+     overflow-y: hidden;
+    width: 15%;
+    height: 40vh;
+    background-color: #2B98F7;
+    &__h4{
+        color: white;
+        font-size: 18px;
+        font-weight: 800;
+        padding-top: 10px;
+        margin-left: -60px;
+        padding-bottom: 10px;
+    }
+    &__p{
+font-size: 16px;
+    }
+}
+}
+
+@include mobile{
+    .card{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+       
+
+    }
+    .card__h4{
+        font-size: 14px;
+    }
+    .card__p{
+        font-size: 14px;
+    }
+    .card--new{
+        width: 100%;
+        height: auto;
+        margin: 10px; 
+    }
+   
+}

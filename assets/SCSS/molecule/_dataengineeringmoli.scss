@@ -1,0 +1,40 @@
+.molicontainer{
+    width: 70%;
+    height: 40vh;
+    margin: 20px;
+    margin-left: 50px;
+    background-color: #03549F;
+    &__h3{
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    &__p{
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    &__row{
+        padding: 10px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+@include mobile{
+    .molicontainer{
+        width: 100%;
+        height: auto;
+        margin-left: 10px;
+    }
+    .molicontainer__row{
+        display: block;
+        width: 100%;
+    }
+}

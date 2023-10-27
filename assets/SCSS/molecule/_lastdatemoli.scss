@@ -1,0 +1,22 @@
+.lastdatecontainer{
+    margin: 10px;
+    width: 20%;
+    height: 40%;
+    // background-color: aqua;
+    &__p{
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+    }
+    &__h5{
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+@include mobile{
+    .lastdatecontainer{
+        width: 100%;
+    } 
+}
